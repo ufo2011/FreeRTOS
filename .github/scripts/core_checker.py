@@ -175,6 +175,7 @@ FREERTOS_IGNORED_EXTENSIONS = [
     '.properties',
     '.ps1',
     '.ptf',
+    '.py',
     '.r79',
     '.rapp',
     '.rc',
@@ -263,7 +264,9 @@ FREERTOS_IGNORED_FILES = [
     'mbedtls_config.h',
     'requirements.txt',
     'run-cbmc-proofs.py',
-    '.editorconfig'
+    '.editorconfig',
+    'lcovrc',
+    'htif.c', 'htif.h'
 ]
 
 FREERTOS_HEADER = [
